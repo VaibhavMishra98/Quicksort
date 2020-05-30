@@ -1,6 +1,7 @@
 
 #include <stdio.h>
 
+//Sorting starts here
 int partition(int A[], int p, int r)
 {
     int x = A[r];
