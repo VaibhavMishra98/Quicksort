@@ -18,6 +18,7 @@ int partition(int A[], int p, int r)
   swap(&A[i + 1], &A[r]);
   return (i + 1);
 }
+//Recursion
 void quickSort(int A[], int p, int r)
 {
   if (p < r)
