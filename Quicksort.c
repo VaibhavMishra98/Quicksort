@@ -28,6 +28,7 @@ void quickSort(int A[], int p, int r)
     quickSort(A, q + 1, r);
   }
 }
+//Display Function
 void display(int A[], int n)
 {
     int i;
