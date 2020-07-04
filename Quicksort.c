@@ -38,6 +38,7 @@ void display(int A[], int n)
     }
   printf("\n");
 }
+//Swap function
 void swap(int *a, int *b)
 {
     int t = *a;
